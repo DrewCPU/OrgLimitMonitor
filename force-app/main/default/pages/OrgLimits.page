@@ -1,0 +1,5 @@
+<apex:page controller="OrgLimitsController">
+    <apex:repeat value="{!orgLimitList}" var="v">
+        {!v.label}: {!v.current}/{!v.max}<br />
+    </apex:repeat>
+</apex:page>
