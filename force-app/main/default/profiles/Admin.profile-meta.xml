@@ -5,6 +5,10 @@
         <enabled>true</enabled>
     </classAccesses>
     <custom>false</custom>
+    <pageAccesses>
+        <apexPage>OrgLimits</apexPage>
+        <enabled>true</enabled>
+    </pageAccesses>
     <userLicense>Salesforce</userLicense>
     <userPermissions>
         <enabled>true</enabled>
