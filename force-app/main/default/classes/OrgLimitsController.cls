@@ -40,94 +40,94 @@ public with sharing class OrgLimitsController {
             String tmpLabel = '';
             switch on this.name {
                when 'HourlyTimeBasedWorkflow' {
-                   tmpLabel = 'Hourly Time-Based Workflow';
+                   tmpLabel = System.Label.OrgLimits_HourlyTimeBasedWorkflow;
                }
                when 'DailyWorkflowEmails' {
-                   tmpLabel = 'Daily Workflow Emails';
+                   tmpLabel = System.Label.OrgLimits_DailyWorkflowEmails;
                }
                when 'DailyDurableStreamingApiEvents' {
-                   tmpLabel = 'Daily Durable Streaming API Events';
+                   tmpLabel = System.Label.OrgLimits_DailyDurableStreamingApiEvents;
                }
                when 'MonthlyPlatformEvents' {
-                   tmpLabel = 'Monthly Platform Events';
+                   tmpLabel = System.Label.OrgLimits_MonthlyPlatformEvents;
                }
                when 'DailyStandardVolumePlatformEvents' {
-                   tmpLabel = 'Daily Standard Volume Platform Events';
+                   tmpLabel = System.Label.OrgLimits_DailyStandardVolumePlatformEvents;
                }
                when 'DailyDurableGenericStreamingApiEvents' {
-                   tmpLabel = 'Daily Durable Generic Streaming API Events';
+                   tmpLabel = System.Label.OrgLimits_DailyDurableGenericStreamingApiEvents;
                }
                when 'DurableStreamingApiConcurrentClients' {
-                   tmpLabel = 'Durable Streaming API Concurrent Clients';
+                   tmpLabel = System.Label.OrgLimits_DurableStreamingApiConcurrentClients;
                }
                when 'HourlyODataCallout' {
-                   tmpLabel = 'Hourly OData Callout';
+                   tmpLabel = System.Label.OrgLimits_HourlyODataCallout;
                }
                when 'HourlyLongTermIdMapping' {
-                   tmpLabel = 'Hourly Long Term Id Mapping';
+                   tmpLabel = System.Label.OrgLimits_HourlyLongTermIdMapping;
                }
                when 'HourlyShortTermIdMapping' {
-                   tmpLabel = 'Hourly Short Term Id Mapping';
+                   tmpLabel = System.Label.OrgLimits_HourlyShortTermIdMapping;
                }
                when 'SingleEmail' {
-                   tmpLabel = 'Single Email';
+                   tmpLabel = System.Label.OrgLimits_SingleEmail;
                }
                when 'MassEmail' {
-                   tmpLabel = 'Mass Email';
+                   tmpLabel = System.Label.OrgLimits_MassEmail;
                }
                when 'PermissionSets' {
-                   tmpLabel = 'Permission Sets';
+                   tmpLabel = System.Label.OrgLimits_PermissionSets;
                }
                when 'HourlyDashboardRefreshes' {
-                   tmpLabel = 'Hourly Dashboard Refreshes';
+                   tmpLabel = System.Label.OrgLimits_HourlyDashboardRefreshes;
                }
                when 'HourlyDashboardResults' {
-                   tmpLabel = 'Hourly Dashboard Results';
+                   tmpLabel = System.Label.OrgLimits_HourlyDashboardResults;
                }
                when 'HourlyDashboardStatuses' {
-                   tmpLabel = 'Hourly Dashboard Statuses';
+                   tmpLabel = System.Label.OrgLimits_HourlyDashboardStatuses;
                }
                when 'HourlySyncReportRuns' {
-                   tmpLabel = 'Hourly Sync Report Runs';
+                   tmpLabel = System.Label.OrgLimits_HourlySyncReportRuns;
                }
                when 'HourlyAsyncReportRuns' {
-                   tmpLabel = 'Hourly Async Report Runs';
+                   tmpLabel = System.Label.OrgLimits_HourlyAsyncReportRuns;
                }
                when 'ConcurrentSyncReportRuns' {
-                   tmpLabel = 'Concurrent Sync Report Runs';
+                   tmpLabel = System.Label.OrgLimits_ConcurrentSyncReportRuns;
                }
                when 'ConcurrentAsyncGetReportInstances' {
-                   tmpLabel = 'Concurrent Async Get Report Instances';
+                   tmpLabel = System.Label.OrgLimits_ConcurrentAsyncGetReportInstances;
                }
                when 'DailyAnalyticsDataflowJobExecutions' {
-                   tmpLabel = 'Daily Analytics Dataflow Job Executions';
+                   tmpLabel = System.Label.OrgLimits_DailyAnalyticsDataflowJobExecutions;
                }
                when 'Package2VersionCreates' {
-                   tmpLabel = 'Package2Version Creates';
+                   tmpLabel = System.Label.OrgLimits_Package2VersionCreates;
                }
                when 'DailyAsyncApexExecutions' {
-                   tmpLabel = 'Daily Async Apex Executions';
+                   tmpLabel = System.Label.OrgLimits_DailyAsyncApexExecutions;
                }
                when 'DailyApiRequests' {
-                   tmpLabel = 'Daily API Requests';
+                   tmpLabel = System.Label.OrgLimits_DailyApiRequests;
                }
                when 'DailyBulkApiRequests' {
-                   tmpLabel = 'Daily Bulk API Requests';
+                   tmpLabel = System.Label.OrgLimits_DailyBulkApiRequests;
                }
                when 'DailyGenericStreamingApiEvents' {
-                   tmpLabel = 'Daily Generic Streaming API Events';
+                   tmpLabel = System.Label.OrgLimits_DailyGenericStreamingApiEvents;
                }
                when 'StreamingApiConcurrentClients' {
-                   tmpLabel = 'Streaming API Concurrent Clients';
+                   tmpLabel = System.Label.OrgLimits_StreamingApiConcurrentClients;
                }
                when 'DailyStreamingApiEvents' {
-                   tmpLabel = 'Daily Streaming API Events';
+                   tmpLabel = System.Label.OrgLimits_DailyStreamingApiEvents;
                }
                when 'DataStorageMB' {
-                   tmpLabel = 'Data Storage (MB)';
+                   tmpLabel = System.Label.OrgLimits_DataStorageMB;
                }
                when 'FileStorageMB' {
-                   tmpLabel = 'File Storage (MB)';
+                   tmpLabel = System.Label.OrgLimits_FileStorageMB;
                }
                when else {
                    tmpLabel = this.name;

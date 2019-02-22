@@ -1,0 +1,243 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomLabels xmlns="http://soap.sforce.com/2006/04/metadata">
+    <labels>
+        <fullName>OrgLimits_DailyWorkflowEmails</fullName>
+        <categories>OrgLimits</categories>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>DailyWorkflowEmails</shortDescription>
+        <value>Daily Workflow Emails</value>
+    </labels>
+    <labels>
+        <fullName>OrgLimits_HourlyTimeBasedWorkflow</fullName>
+        <categories>OrgLimits</categories>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>HourlyTimeBasedWorkflow</shortDescription>
+        <value>Hourly Time-Based Workflow</value>
+    </labels>
+    <labels>
+        <fullName>OrgLimits_DailyDurableStreamingApiEvents</fullName>
+        <categories>OrgLimits</categories>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>DailyDurableStreamingApiEvents</shortDescription>
+        <value>Daily Durable Streaming API Events</value>
+    </labels>
+    <labels>
+        <fullName>OrgLimits_MonthlyPlatformEvents</fullName>
+        <categories>OrgLimits</categories>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>MonthlyPlatformEvents</shortDescription>
+        <value>Monthly Platform Events</value>
+    </labels>
+    <labels>
+        <fullName>OrgLimits_DailyAnalyticsDataflowJobExecutions</fullName>
+        <categories>OrgLimits</categories>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>DailyAnalyticsDataflowJobExecutions</shortDescription>
+        <value>Daily Analytics Dataflow Job Executions</value>
+    </labels>
+    <labels>
+        <fullName>OrgLimits_DailyStandardVolumePlatformEvents</fullName>
+        <categories>OrgLimits</categories>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>DailyStandardVolumePlatformEvents</shortDescription>
+        <value>Daily Standard Volume Platform Events</value>
+    </labels>
+    <labels>
+        <fullName>OrgLimits_DailyDurableGenericStreamingApiEvents</fullName>
+        <categories>OrgLimits</categories>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>DailyDurableGenericStreamingApiEvents</shortDescription>
+        <value>Daily Durable Generic Streaming API Events</value>
+    </labels>
+    <labels>
+        <fullName>OrgLimits_DurableStreamingApiConcurrentClients</fullName>
+        <categories>OrgLimits</categories>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>DurableStreamingApiConcurrentClients</shortDescription>
+        <value>Durable Streaming API Concurrent Clients</value>
+    </labels>
+    <labels>
+        <fullName>OrgLimits_HourlyODataCallout</fullName>
+        <categories>OrgLimits</categories>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>HourlyODataCallout</shortDescription>
+        <value>Hourly OData Callout</value>
+    </labels>
+    <labels>
+        <fullName>OrgLimits_HourlyLongTermIdMapping</fullName>
+        <categories>OrgLimits</categories>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>HourlyLongTermIdMapping</shortDescription>
+        <value>Hourly Long Term Id Mapping</value>
+    </labels>
+    <labels>
+        <fullName>OrgLimits_HourlyShortTermIdMapping</fullName>
+        <categories>OrgLimits</categories>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>HourlyShortTermIdMapping</shortDescription>
+        <value>Hourly Short Term Id Mapping</value>
+    </labels>
+    <labels>
+        <fullName>OrgLimits_SingleEmail</fullName>
+        <categories>OrgLimits</categories>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>SingleEmail</shortDescription>
+        <value>Single Email</value>
+    </labels>
+    <labels>
+        <fullName>OrgLimits_MassEmail</fullName>
+        <categories>OrgLimits</categories>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>MassEmail</shortDescription>
+        <value>Mass Email</value>
+    </labels>
+    <labels>
+        <fullName>OrgLimits_PermissionSets</fullName>
+        <categories>OrgLimits</categories>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>PermissionSets</shortDescription>
+        <value>Permission Sets</value>
+    </labels>
+    <labels>
+        <fullName>OrgLimits_HourlyDashboardRefreshes</fullName>
+        <categories>OrgLimits</categories>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>HourlyDashboardRefreshes</shortDescription>
+        <value>Hourly Dashboard Refreshes</value>
+    </labels>
+    <labels>
+        <fullName>OrgLimits_HourlyDashboardResults</fullName>
+        <categories>OrgLimits</categories>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>HourlyDashboardResults</shortDescription>
+        <value>Hourly Dashboard Results</value>
+    </labels>
+    <labels>
+        <fullName>OrgLimits_HourlyDashboardStatuses</fullName>
+        <categories>OrgLimits</categories>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>HourlyDashboardStatuses</shortDescription>
+        <value>Hourly Dashboard Statuses</value>
+    </labels>
+    <labels>
+        <fullName>OrgLimits_HourlySyncReportRuns</fullName>
+        <categories>OrgLimits</categories>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>HourlySyncReportRuns</shortDescription>
+        <value>Hourly Sync Report Runs</value>
+    </labels>
+    <labels>
+        <fullName>OrgLimits_HourlyAsyncReportRuns</fullName>
+        <categories>OrgLimits</categories>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>HourlyAsyncReportRuns</shortDescription>
+        <value>Hourly Async Report Runs</value>
+    </labels>
+    <labels>
+        <fullName>OrgLimits_ConcurrentSyncReportRuns</fullName>
+        <categories>OrgLimits</categories>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>ConcurrentSyncReportRuns</shortDescription>
+        <value>Concurrent Sync Report Runs</value>
+    </labels>
+    <labels>
+        <fullName>OrgLimits_ConcurrentAsyncGetReportInstances</fullName>
+        <categories>OrgLimits</categories>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>ConcurrentAsyncGetReportInstances</shortDescription>
+        <value>Concurrent Async Get Report Instances</value>
+    </labels>
+    <labels>
+        <fullName>OrgLimits_Package2VersionCreates</fullName>
+        <categories>OrgLimits</categories>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Package2VersionCreates</shortDescription>
+        <value>Package2Version Creates</value>
+    </labels>
+    <labels>
+        <fullName>OrgLimits_DailyAsyncApexExecutions</fullName>
+        <categories>OrgLimits</categories>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>DailyAsyncApexExecutions</shortDescription>
+        <value>Daily Async Apex Executions</value>
+    </labels>
+    <labels>
+        <fullName>OrgLimits_DailyApiRequests</fullName>
+        <categories>OrgLimits</categories>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>DailyApiRequests</shortDescription>
+        <value>Daily API Requests</value>
+    </labels>
+    <labels>
+        <fullName>OrgLimits_DailyBulkApiRequests</fullName>
+        <categories>OrgLimits</categories>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>DailyBulkApiRequests</shortDescription>
+        <value>Daily Bulk API Requests</value>
+    </labels>
+    <labels>
+        <fullName>OrgLimits_DailyGenericStreamingApiEvents</fullName>
+        <categories>OrgLimits</categories>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>DailyGenericStreamingApiEvents</shortDescription>
+        <value>Daily Generic Streaming API Events</value>
+    </labels>
+    <labels>
+        <fullName>OrgLimits_StreamingApiConcurrentClients</fullName>
+        <categories>OrgLimits</categories>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>StreamingApiConcurrentClients</shortDescription>
+        <value>Streaming API Concurrent Clients</value>
+    </labels>
+    <labels>
+        <fullName>OrgLimits_DailyStreamingApiEvents</fullName>
+        <categories>OrgLimits</categories>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>DailyStreamingApiEvents</shortDescription>
+        <value>Daily Streaming API Events</value>
+    </labels>
+    <labels>
+        <fullName>OrgLimits_DataStorageMB</fullName>
+        <categories>OrgLimits</categories>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>DataStorageMB</shortDescription>
+        <value>Data Storage (MB)</value>
+    </labels>
+    <labels>
+        <fullName>OrgLimits_FileStorageMB</fullName>
+        <categories>OrgLimits</categories>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>FileStorageMB</shortDescription>
+        <value>File Storage (MB)</value>
+    </labels>
+</CustomLabels>
