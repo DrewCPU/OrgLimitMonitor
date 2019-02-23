@@ -1,5 +1,58 @@
 <apex:page controller="OrgLimitsController">
+    <style>
+        .gauge{
+            text-align: center;
+            border: 1px solid black;
+            width:300px;
+            float:left;
+            min-height: 300px;
+        }
+
+        .gauge-title {
+            font-size: 20px;
+        }
+        .gauge-label {
+            font-size: 41px;
+        }
+        .gauge-max {
+            font-size: 20px;
+        }
+    </style>
+        
     <apex:repeat value="{!orgLimitList}" var="v">
-        {!v.label}: {!v.current}/{!v.max}<br />
+        <!-- {!v.label}: {!v.current}/{!v.max}<br /> -->
+        <div class="gauge">
+            <div class="gauge-title">{!v.label}</div>
+            <canvas id="{!v.name}"></canvas>
+            <div class="gauge-label" id="{!v.name}-textfield"></div>
+            <div class="gauge-max" id="{!v.name}-max">(Max: {!v.max})</div>
+        </div>
     </apex:repeat>
+
+    <apex:includeScript value="{!$Resource.gaugeJS}" />
+    <script>
+        var opts = {
+            lines: 12,
+            angle: 0.15,
+            lineWidth: 0.44,
+            pointer: {
+                length: 0.9,
+                strokeWidth: 0.035,
+                color: '#000000'
+            },
+            limitMax: 'false', 
+            percentColors: [[0.0, "#a9d70b" ], [0.50, "#f9c802"], [1.0, "#ff0000"]], // !!!!
+            strokeColor: '#E0E0E0',
+            generateGradient: true
+        };
+
+        <apex:repeat value="{!orgLimitList}" var="v">
+            var {!v.name}target = document.getElementById('{!v.name}');
+            var {!v.name}gauge = new Gauge({!v.name}target).setOptions(opts);
+            {!v.name}gauge.setTextField(document.getElementById("{!v.name}-textfield"));
+            {!v.name}gauge.maxValue = {!v.max};
+            {!v.name}gauge.animationSpeed = 32;
+            {!v.name}gauge.set({!v.current});
+        </apex:repeat>
+    </script>
 </apex:page>
