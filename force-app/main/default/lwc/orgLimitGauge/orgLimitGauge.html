@@ -1,0 +1,10 @@
+<template>
+    <lightning-card title={chartTitle} icon-name="custom:custom19">
+        <div class="slds-m-around_medium">
+            <canvas class="donut" lwc:dom="manual"></canvas>
+        </div>
+        <template if:true={error}>
+            {error}
+        </template>
+    </lightning-card>
+</template>
