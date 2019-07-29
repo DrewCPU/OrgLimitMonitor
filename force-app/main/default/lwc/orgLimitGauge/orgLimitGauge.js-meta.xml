@@ -9,7 +9,7 @@
     </targets>
     <targetConfigs>
         <targetConfig targets="lightning__AppPage,lightning__RecordPage,lightning__HomePage">
-            <property name="limitName" default="DailyApiRequests" type="String" label="Limit Name" />
+            <property name="limitName" default="DailyApiRequests" type="String" label="Limit Name" datasource="apex://LimitNamesPicklist" />
         </targetConfig>
     </targetConfigs>
 </LightningComponentBundle>
