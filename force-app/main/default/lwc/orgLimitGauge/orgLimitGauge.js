@@ -1,7 +1,7 @@
 import { LightningElement, track, wire, api } from 'lwc';
 import { loadScript } from 'lightning/platformResourceLoader';
 import chartjs from '@salesforce/resourceUrl/chartjs';
-import getLimitsJSON from '@salesforce/apex/OrgLimitsController.getLimitsJSON';
+import getLimitsJSON from '@salesforce/apex/OrgLimits.getLimitsJSON';
     
 const generateRandomNumber = () => {
         return Math.round(Math.random() * 100);
