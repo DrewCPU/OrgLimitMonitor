@@ -240,4 +240,108 @@
         <shortDescription>FileStorageMB</shortDescription>
         <value>File Storage (MB)</value>
     </labels>
+    <labels>
+        <fullName>OrgLimits_HourlyPublishedStandardVolumePlatformEvents</fullName>
+        <categories>OrgLimits</categories>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>HourlyPublishedStandardVolumePlatformEvents</shortDescription>
+        <value>Hourly Published Standard Volume Platform Events</value>
+    </labels>
+    <labels>
+        <fullName>OrgLimits_HourlyPublishedPlatformEvents</fullName>
+        <categories>OrgLimits</categories>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>HourlyPublishedPlatformEvents</shortDescription>
+        <value>Hourly Published Platform Events</value>
+    </labels>
+    <labels>
+        <fullName>OrgLimits_DailyBulkV2QueryJobs</fullName>
+        <categories>OrgLimits</categories>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>DailyBulkV2QueryJobs</shortDescription>
+        <value>Daily Bulk V2 Query Jobs</value>
+    </labels>
+    <labels>
+        <fullName>OrgLimits_DailyBulkV2QueryFileStorageMB</fullName>
+        <categories>OrgLimits</categories>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>DailyBulkV2QueryFileStorageMB</shortDescription>
+        <value>Daily Bulk V2 Query File Storage (MB)</value>
+    </labels>
+    <labels>
+        <fullName>OrgLimits_DailyAnalyticsUploadedFilesSizeMB</fullName>
+        <categories>OrgLimits</categories>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>DailyAnalyticsUploadedFilesSizeMB</shortDescription>
+        <value>Daily Analytics Uploaded Files Size (MB)</value>
+    </labels>
+    <labels>
+        <fullName>OrgLimits_AnalyticsExternalDataSizeMB</fullName>
+        <categories>OrgLimits</categories>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>AnalyticsExternalDataSizeMB</shortDescription>
+        <value>Analytics External Data Size (MB)</value>
+    </labels>
+    <labels>
+        <fullName>OrgLimits_MonthlyEinsteinDiscoveryStoryCreation</fullName>
+        <categories>OrgLimits</categories>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>MonthlyEinsteinDiscoveryStoryCreation</shortDescription>
+        <value>Monthly Einstein Discovery Story Creation</value>
+    </labels>
+    <labels>
+        <fullName>OrgLimits_DailyEinsteinDiscoveryStoryCreation</fullName>
+        <categories>OrgLimits</categories>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>DailyEinsteinDiscoveryStoryCreation</shortDescription>
+        <value>Daily Einstein Discovery Story Creation</value>
+    </labels>
+    <labels>
+        <fullName>OrgLimits_DailyEinsteinDataInsightsStoryCreation</fullName>
+        <categories>OrgLimits</categories>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>DailyEinsteinDataInsightsStoryCreation</shortDescription>
+        <value>Daily Einstein Data Insights Story Creation</value>
+    </labels>
+    <labels>
+        <fullName>OrgLimits_DailyEinsteinDiscoveryPredictionsByCDC</fullName>
+        <categories>OrgLimits</categories>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>DailyEinsteinDiscoveryPredictionsByCDC</shortDescription>
+        <value>Daily Einstein Discovery Predictions By CDC</value>
+    </labels>
+    <labels>
+        <fullName>OrgLimits_ConcurrentEinsteinDataInsightsStoryCreation</fullName>
+        <categories>OrgLimits</categories>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>ConcurrentEinsteinDataInsightsStoryCreation</shortDescription>
+        <value>Concurrent Einstein Data Insights Story Creation</value>
+    </labels>
+    <labels>
+        <fullName>OrgLimits_ConcurrentEinsteinDiscoveryStoryCreation</fullName>
+        <categories>OrgLimits</categories>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>ConcurrentEinsteinDiscoveryStoryCreation</shortDescription>
+        <value>Concurrent Einstein Discovery Story Creation</value>
+    </labels>
+    <labels>
+        <fullName>OrgLimits_DailyEinsteinDiscoveryPredictAPICalls</fullName>
+        <categories>OrgLimits</categories>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>DailyEinsteinDiscoveryPredictAPICalls</shortDescription>
+        <value>Daily Einstein Discovery Predict API Calls</value>
+    </labels>
 </CustomLabels>
