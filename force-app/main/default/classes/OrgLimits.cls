@@ -118,6 +118,45 @@ global class OrgLimits {
             when 'FileStorageMB' {
                 tmpLabel = System.Label.OrgLimits_FileStorageMB;
             }
+            when 'HourlyPublishedStandardVolumePlatformEvents' {
+                tmpLabel = System.Label.OrgLimits_HourlyPublishedStandardVolumePlatformEvents;
+            }
+            when 'HourlyPublishedPlatformEvents' {
+                tmpLabel = System.Label.OrgLimits_HourlyPublishedPlatformEvents;
+            }
+            when 'DailyBulkV2QueryJobs' {
+                tmpLabel = System.Label.OrgLimits_DailyBulkV2QueryJobs;
+            }
+            when 'DailyBulkV2QueryFileStorageMB' {
+                tmpLabel = System.Label.OrgLimits_DailyBulkV2QueryFileStorageMB;
+            }
+            when 'DailyAnalyticsUploadedFilesSizeMB' {
+                tmpLabel = System.Label.OrgLimits_DailyAnalyticsUploadedFilesSizeMB;
+            }
+            when 'AnalyticsExternalDataSizeMB' {
+                tmpLabel = System.Label.OrgLimits_AnalyticsExternalDataSizeMB;
+            }
+            when 'MonthlyEinsteinDiscoveryStoryCreation' {
+                tmpLabel = System.Label.OrgLimits_MonthlyEinsteinDiscoveryStoryCreation;
+            }
+            when 'DailyEinsteinDiscoveryStoryCreation' {
+                tmpLabel = System.Label.OrgLimits_DailyEinsteinDiscoveryStoryCreation;
+            }
+            when 'DailyEinsteinDataInsightsStoryCreation' {
+                tmpLabel = System.Label.OrgLimits_DailyEinsteinDataInsightsStoryCreation;
+            }
+            when 'DailyEinsteinDiscoveryPredictionsByCDC' {
+                tmpLabel = System.Label.OrgLimits_DailyEinsteinDiscoveryPredictionsByCDC;
+            }
+            when 'ConcurrentEinsteinDataInsightsStoryCreation' {
+                tmpLabel = System.Label.OrgLimits_ConcurrentEinsteinDataInsightsStoryCreation;
+            }
+            when 'ConcurrentEinsteinDiscoveryStoryCreation' {
+                tmpLabel = System.Label.OrgLimits_ConcurrentEinsteinDiscoveryStoryCreation;
+            }
+            when 'DailyEinsteinDiscoveryPredictAPICalls' {
+                tmpLabel = System.Label.OrgLimits_DailyEinsteinDiscoveryPredictAPICalls;
+            }
             when else {
                 tmpLabel = name;
             }
