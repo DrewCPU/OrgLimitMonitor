@@ -1,0 +1,15 @@
+<template>
+  <lightning-layout multiple-rows="true">
+    <template for:each={limits} for:item="limit">
+      <lightning-layout-item
+        key={limit.Id}
+        padding="around-small"
+        size="12"
+        medium-device-size="4"
+        large-device-size="3"
+      >
+        <c-org-limit-gauge limit-name={limit.Name}></c-org-limit-gauge>
+      </lightning-layout-item>
+    </template>
+  </lightning-layout>
+</template>
