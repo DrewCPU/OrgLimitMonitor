@@ -11,4 +11,10 @@ public class OrgLimitsTest {
         List<OrgLimits.OrgLimitWrapper> limitList = OrgLimits.getLimitsList();
         System.assertNotEquals(NULL, limitList);
     }
+    
+    @isTest
+    public static void testLabelDefault() {
+        String label = OrgLimits.getLabel('TestLimitNameThatDoesNotExist');
+        System.assertEquals('TestLimitNameThatDoesNotExist', label);
+    }
 }
