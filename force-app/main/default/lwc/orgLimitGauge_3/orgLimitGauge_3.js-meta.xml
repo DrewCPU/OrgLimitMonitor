@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<LightningComponentBundle xmlns="http://soap.sforce.com/2006/04/metadata">
+    <apiVersion>46.0</apiVersion>
+    <masterLabel>Org Limit Gauge (3 Gauges)</masterLabel>
+    <description>Displays three gauges in one component.</description>
+    <isExposed>true</isExposed>
+    <targets>
+        <target>lightning__AppPage</target>
+        <target>lightning__RecordPage</target>
+        <target>lightning__HomePage</target>
+    </targets>
+    <targetConfigs>
+        <targetConfig targets="lightning__AppPage,lightning__RecordPage,lightning__HomePage">
+            <property name="gauge1" required="true" default="DailyApiRequests" type="String" label="Gauge #1 Limit Name" datasource="apex://LimitNamesPicklist" />
+            <property name="gauge2" default="DailyApiRequests" type="String" label="Gauge #2 Limit Name" datasource="apex://LimitNamesPicklist" />
+            <property name="gauge3" default="DailyApiRequests" type="String" label="Gauge #3 Limit Name" datasource="apex://LimitNamesPicklist" />
+            <supportedFormFactors>
+                <supportedFormFactor type="Large" />
+                <supportedFormFactor type="Small" />
+            </supportedFormFactors>
+        </targetConfig>
+    </targetConfigs>
+</LightningComponentBundle>

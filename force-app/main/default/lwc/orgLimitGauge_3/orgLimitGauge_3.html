@@ -1,0 +1,29 @@
+<template>
+  <lightning-layout multiple-rows="true">
+    <lightning-layout-item
+      padding="horizontal-small"
+      size="12"
+      medium-device-size="4"
+    >
+      <c-org-limit-gauge limit-name={gauge1}></c-org-limit-gauge>
+    </lightning-layout-item>
+    <template if:true={gauge2}>
+      <lightning-layout-item
+        padding="horizontal-small"
+        size="12"
+        medium-device-size="4"
+      >
+        <c-org-limit-gauge limit-name={gauge2}></c-org-limit-gauge>
+      </lightning-layout-item>
+    </template>
+    <template if:true={gauge3}>
+      <lightning-layout-item
+        padding="horizontal-small"
+        size="12"
+        medium-device-size="4"
+      >
+        <c-org-limit-gauge limit-name={gauge3}></c-org-limit-gauge>
+      </lightning-layout-item>
+    </template>
+  </lightning-layout>
+</template>
