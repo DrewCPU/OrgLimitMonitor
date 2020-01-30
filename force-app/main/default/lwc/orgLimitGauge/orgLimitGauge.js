@@ -2,6 +2,7 @@
 import { LightningElement, track, wire, api } from "lwc";
 import { loadScript } from "lightning/platformResourceLoader";
 import chartjs from "@salesforce/resourceUrl/chartjs";
+import { refreshApex } from '@salesforce/apex';
 import getLimitsJSON from "@salesforce/apex/OrgLimits.getLimitsJSON";
 
 function getColor(ratio) {
@@ -57,9 +58,13 @@ export default class OrgLimitGauge extends LightningElement {
   remainder = this.maxValue - this.current;
   @track chartTitle = "Limit Gauge";
   chartjsInitialized = false;
+  wiredLimitData;
 
   @wire(getLimitsJSON)
-  wiredLimits({ error, data }) {
+  wiredLimits(value) {
+    // Hold on to the provisioned value so we can refresh it later.
+    this.wiredLimitData = value; // track the provisioned value
+    const { data, error } = value;
     if (data) {
       // console.log(data);
       var parsed = JSON.parse(data);
@@ -151,5 +156,9 @@ export default class OrgLimitGauge extends LightningElement {
     //     .catch(error => {
     //         this.error = error;
     //     });
+  }
+
+  handleRefresh() {
+    return refreshApex(this.wiredLimitData);
   }
 }
