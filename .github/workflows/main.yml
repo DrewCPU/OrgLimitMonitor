@@ -1,0 +1,34 @@
+name: CI
+
+on: [push]
+
+jobs:
+  build:
+
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: 'Populate auth file with SFDX_URL secret'
+        shell: bash
+        run: 'echo ${{ secrets.DEV_HUB_SFDXURL}} > ./SFDX_URL_STORE.txt'
+      - name: 'Authenticate against dev hub'
+        uses: forcedotcom/salesforcedx-actions@master
+        with:
+          args: 'force:auth:sfdxurl:store --sfdxurlfile=./SFDX_URL_STORE.txt --setalias=devhub --setdefaultdevhubusername'
+      - name: 'Create scratch org'
+        uses: forcedotcom/salesforcedx-actions@master
+        with:
+          args: 'force:org:create --definitionfile=config/project-scratch-def.json --setalias=scratch-org --setdefaultusername'
+      - uses: actions/checkout@v1
+      - name: 'Push source'
+        uses: forcedotcom/salesforcedx-actions@master
+        with:
+          args: 'force:source:push'
+      - name: 'Run Apex Tests'
+        uses: forcedotcom/salesforcedx-actions@master
+        with:
+          args: 'force:apex:test:run'
+      - name: 'Clean up scratch org'
+        uses: forcedotcom/salesforcedx-actions@master
+        with:
+          args: 'force:org:delete --targetusername=scratch-org --noprompt'
